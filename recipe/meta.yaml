@@ -1,5 +1,5 @@
 {% set name = "google-geo-type" %}
-{% set version = "0.3.12" %}
+{% set version = "0.3.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: c2ebcafa9cb7774e731ab540cb23660f82e9b1a8e1917f04625e0334053ba52a
+  sha256: b53e23282bedec7ee996f48b199506e33a3257eb59dc1506c7e7e8307b2567ee
 
 build:
   noarch: python
